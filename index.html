@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zapatillas Urban Style</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+</head>
+<body class="bg-white text-gray-800 scroll-smooth">
+  <!-- Header -->
+  <header class="bg-black text-white sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <h1 class="text-2xl font-bold">Urban Style</h1>
+      <nav class="space-x-4">
+        <a href="#productos" class="hover:underline">Productos</a>
+        <a href="#testimonios" class="hover:underline">Testimonios</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-screen flex items-center justify-center" style="background-image: url('https://source.unsplash.com/1600x900/?sneakers');">
+    <div class="bg-black bg-opacity-60 p-8 rounded text-center text-white max-w-lg">
+      <h2 class="text-4xl font-bold mb-4">Zapatillas que definen tu estilo</h2>
+      <p class="mb-6">Comodidad, diseño y actitud. Encuentra tu par perfecto con nosotros.</p>
+      <a href="#productos" class="bg-white text-black px-4 py-2 rounded hover:bg-gray-200">Ver colección</a>
+    </div>
+  </section>
+
+  <!-- Productos -->
+  <section id="productos" class="py-20 max-w-7xl mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center mb-12">Nuestros Productos</h3>
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-3">
+      <div class="border rounded-lg shadow hover:shadow-xl transition">
+        <img src="https://m.media-amazon.com/images/I/51E3YNiSQVL._AC_SL1200_.jpg" alt="Zapatilla 1" class="w-full rounded-t-lg">
+        <div class="p-4">
+          <h4 class="font-semibold text-lg">Zapatilla Street One</h4>
+          <p class="text-gray-600">$89.00</p>
+        </div>
+      </div>
+      <div class="border rounded-lg shadow hover:shadow-xl transition">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXKlOl8qyZpipZM3PTYMou7qpFsrXJYR3cHw&s" alt="Zapatilla 2" class="w-full rounded-t-lg">
+        <div class="p-4">
+          <h4 class="font-semibold text-lg">Zapatilla Urban Flow</h4>
+          <p class="text-gray-600">$99.00</p>
+        </div>
+      </div>
+      <div class="border rounded-lg shadow hover:shadow-xl transition">
+        <img src="https://www.converse.com.pe/media/catalog/product/z/a/zapatilla-nino-converse-chuck-taylor-all-star-malden-street-1v-web-a10761c-0_1_u7izkqo61kx8exzc.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=1000&width=1000&canvas=1000:1000" alt="Zapatilla 3" class="w-full rounded-t-lg">
+        <div class="p-4">
+          <h4 class="font-semibold text-lg">Zapatilla Classic Soul</h4>
+          <p class="text-gray-600">$79.00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="bg-gray-100 py-20">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-3xl font-bold mb-12">Lo que dicen nuestros clientes</h3>
+      <div class="grid gap-8 md:grid-cols-3">
+        <div class="bg-white p-6 rounded shadow">
+          <p>"Increíble calidad y muy cómodas. ¡Definitivamente volveré a comprar!"</p>
+          <span class="block mt-4 font-semibold">– Laura M.</span>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <p>"Las zapatillas llegaron rápido y se ven aún mejor en persona."</p>
+          <span class="block mt-4 font-semibold">– Diego R.</span>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <p>"Me encanta el estilo que ofrecen. Combinan con todo mi guardarropa."</p>
+          <span class="block mt-4 font-semibold">– Camila T.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-20 max-w-4xl mx-auto px-4">
+    <h3 class="text-3xl font-bold text-center mb-12">Contáctanos</h3>
+    <form class="space-y-6">
+      <input type="text" placeholder="Nombre" class="w-full border p-3 rounded">
+      <input type="email" placeholder="Correo electrónico" class="w-full border p-3 rounded">
+      <textarea placeholder="Mensaje" rows="5" class="w-full border p-3 rounded"></textarea>
+      <button type="submit" class="bg-black text-white px-6 py-3 rounded hover:bg-gray-800">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white text-center py-6">
+    <p>&copy; 2025 Urban Style. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
